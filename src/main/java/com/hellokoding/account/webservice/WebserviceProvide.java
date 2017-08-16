@@ -13,6 +13,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 
 @SuppressWarnings("deprecation")
+//@SuppressWarnings ek açıklaması, bazı derleyici uyarılarını devre dışı bırakır. 
 public class WebserviceProvide {
   static InputStream is = null;
   static JSONObject jObj = null;
