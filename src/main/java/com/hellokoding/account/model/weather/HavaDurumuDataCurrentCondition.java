@@ -10,6 +10,7 @@ public class HavaDurumuDataCurrentCondition {
 	private String weatherCode;
 	private List<HavaDurumuDataCurrentConditionWeatherIconUrl> weatherIconUrl;
 	private List<HavaDurumuDataCurrentConditionWeatherDesc> weatherDesc;
+	private List<HavaDurumuDataCurrentConditionTaným> lang_tr;
 	private String windspeedMiles;
 	private String windspeedKmph;
 	private String winddirDegree;
@@ -59,6 +60,7 @@ public class HavaDurumuDataCurrentCondition {
 	public void setWeatherDesc(List<HavaDurumuDataCurrentConditionWeatherDesc> weatherDesc) {
 		this.weatherDesc = weatherDesc;
 	}
+	
 	public String getWindspeedMiles() {
 		return windspeedMiles;
 	}
@@ -124,6 +126,12 @@ public class HavaDurumuDataCurrentCondition {
 	}
 	public void setFeelsLikeF(String feelsLikeF) {
 		FeelsLikeF = feelsLikeF;
+	}
+	public List<HavaDurumuDataCurrentConditionTaným> getLang_tr() {
+		return lang_tr;
+	}
+	public void setLang_tr(List<HavaDurumuDataCurrentConditionTaným> lang_tr) {
+		this.lang_tr = lang_tr;
 	}
 	
 

@@ -8,8 +8,13 @@ public class Part2 {
 	private String time;
 	private String tempC;
 	private String chanceofrain; //with % percentage
+	private String humidity;
 	private String icon;
 	private String weather_Description;
+	private String lang_tr;
+	private String weatherCode;
+	private String modifiedIcon;
+	private int cor;
 	
 	public String getDate() {
 		return date;
@@ -35,6 +40,12 @@ public class Part2 {
 	public void setChanceofrain(String chanceofrain) {
 		this.chanceofrain = chanceofrain;
 	}
+	public String getHumidity() {
+		return humidity;
+	}
+	public void setHumidity(String humidity) {
+		this.humidity = humidity;
+	}
 	public String getIcon() {
 		return icon;
 	}
@@ -46,6 +57,30 @@ public class Part2 {
 	}
 	public void setWeather_Description(String weather_Description) {
 		this.weather_Description = weather_Description;
+	}
+	public String getLang_tr() {
+		return lang_tr;
+	}
+	public void setLang_tr(String lang_tr) {
+		this.lang_tr = lang_tr;
+	}
+	public String getWeatherCode() {
+		return weatherCode;
+	}
+	public void setWeatherCode(String weatherCode) {
+		this.weatherCode = weatherCode;
+	}
+	public int getCor() {
+		return cor;
+	}
+	public void setCor(int cor) {
+		this.cor = cor;
+	}
+	public String getModifiedIcon() {
+		return modifiedIcon;
+	}
+	public void setModifiedIcon(String modifiedIcon) {
+		this.modifiedIcon = modifiedIcon;
 	}
 	
 }

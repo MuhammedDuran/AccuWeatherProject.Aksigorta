@@ -6,7 +6,7 @@ public class HavaDurumuDataWeatherHourly {
 	
 	private List<HavaDurumuDataWeatherHourlyWeatherIconUrl> weatherIconUrl;
 	private List<HavaDurumuDataWeatherHourlyWeatherDesc> weatherDesc;
-	
+	private List<HavaDurumuDataWeatherHourlyTanim> lang_tr;
 	
 	private String time;
 	private String tempC;
@@ -54,6 +54,12 @@ public class HavaDurumuDataWeatherHourly {
 	}
 	public void setWeatherDesc(List<HavaDurumuDataWeatherHourlyWeatherDesc> weatherDesc) {
 		this.weatherDesc = weatherDesc;
+	}
+	public List<HavaDurumuDataWeatherHourlyTanim> getLang_tr() {
+		return lang_tr;
+	}
+	public void setLang_tr(List<HavaDurumuDataWeatherHourlyTanim> lang_tr) {
+		this.lang_tr = lang_tr;
 	}
 	public String getTime() {
 		return time;

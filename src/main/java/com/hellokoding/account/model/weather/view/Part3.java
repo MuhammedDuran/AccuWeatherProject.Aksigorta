@@ -1,18 +1,21 @@
 package com.hellokoding.account.model.weather.view; //günlük
 
-import java.time.LocalTime;
-
 public class Part3 {
 	
 
 	private String date;
 	private String maxtempC;
-	private String minTempC;
+	private String mintempC;
 	private String humidity;
 	private String chanceofrain;
 	private String icon;
 	private String weather_Description;
+	private String finalDate;
 	private String day;
+	private String lang_tr;
+	private String weatherCode;
+	private String modifiedIcon;
+	private int cor;
 	
 	
 	public String getDate() {
@@ -27,11 +30,12 @@ public class Part3 {
 	public void setMaxtempC(String maxtempC) {
 		this.maxtempC = maxtempC;
 	}
-	public String getMinTempC() {
-		return minTempC;
+	
+	public String getMintempC() {
+		return mintempC;
 	}
-	public void setMinTempC(String minTempC) {
-		this.minTempC = minTempC;
+	public void setMintempC(String mintempC) {
+		this.mintempC = mintempC;
 	}
 	public String getHumidity() {
 		return humidity;
@@ -57,4 +61,41 @@ public class Part3 {
 	public void setWeather_Description(String weather_Description) {
 		this.weather_Description = weather_Description;
 	}
+	public String getFinalDate() {
+		return finalDate;
+	}
+	public void setFinalDate(String finalDate) {
+		this.finalDate = finalDate;
+	}
+	public String getDay() {
+		return day;
+	}
+	public void setDay(String day) {
+		this.day = day;
+	}
+	public String getLang_tr() {
+		return lang_tr;
+	}
+	public void setLang_tr(String lang_tr) {
+		this.lang_tr = lang_tr;
+	}
+	public String getWeatherCode() {
+		return weatherCode;
+	}
+	public void setWeatherCode(String weatherCode) {
+		this.weatherCode = weatherCode;
+	}
+	public String getModifiedIcon() {
+		return modifiedIcon;
+	}
+	public void setModifiedIcon(String modifiedIcon) {
+		this.modifiedIcon = modifiedIcon;
+	}
+	public int getCor() {
+		return cor;
+	}
+	public void setCor(int cor) {
+		this.cor = cor;
+	}
+	
 }

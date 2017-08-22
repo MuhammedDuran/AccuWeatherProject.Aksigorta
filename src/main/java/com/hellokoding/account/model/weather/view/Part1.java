@@ -20,6 +20,8 @@ public class Part1 {
 	private String icon;
 	private String weather_Description;
 	private String value;
+	private String lang_tr;
+	private String modifiedIcon;
 	
 	
 	
@@ -113,6 +115,20 @@ public class Part1 {
 	public void setValue(String value) {
 		this.value = value;
 	}
+	public String getLang_tr() {
+		return lang_tr;
+	}
+	public void setLang_tr(String lang_tr) {
+		this.lang_tr = lang_tr;
+	}
+	public String getModifiedIcon() {
+		return modifiedIcon;
+	}
+	public void setModifiedIcon(String modifiedIcon) {
+		this.modifiedIcon = modifiedIcon;
+	}
+	
+	
 	
 	
 
